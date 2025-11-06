@@ -10,7 +10,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 //Verifica cuáles de los números ingresados son mayores a 50
-for (let i = 1; i <= 10; i++){
+for (let i = 1; i <= nums.length; i++){
     num = nums[i];
     if (num > 50){
         console.log("El numero es mayor a 50");
