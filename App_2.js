@@ -2,7 +2,7 @@
 for (let i = 1; i <= 5; i++) {
 
     //Solicita al usuario si el niño cuenta con carnet
-    let carnet = console.prompt("¿El niño cuenta con carnet? (Si/No)");
+    let carnet = prompt("¿El niño cuenta con carnet? (Si/No)");
 
     //Verifica la respuesta del usuario
     if (carnet.toLowerCase() === "si") {
