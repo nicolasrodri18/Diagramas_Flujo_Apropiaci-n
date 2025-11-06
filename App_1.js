@@ -1,5 +1,5 @@
 //Inicializa el ciclo for que itere del 1 al 10 e imprima los múltiplos de 3.
-for(let i = 1; i <= 10; i++) {
+for(let i = 1; i <= 20; i++) {
 
     //Verifica si el número es múltiplo de 3
     if(i % 3 == 0){
