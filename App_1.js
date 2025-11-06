@@ -1,8 +1,8 @@
-//Iniciamos un ciclo que va del 1 al 10
+//Inicializa el ciclo for que itere del 1 al 10 e imprima los múltiplos de 3.
 for(let i = 1; i <= 10; i++) {
-    
-    //Verificamos si el número es par
-    if(i % 2 == 0){
-        console.log(`${i} es un número par`);
+
+    //Verifica si el número es múltiplo de 3
+    if(i % 3 == 0){
+        console.log(`${i} es un multiplo de 3`);
     }
 }
